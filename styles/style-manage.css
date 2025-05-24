@@ -1,0 +1,114 @@
+#all_eois{
+    color: #D3D3D3;
+    width: 80vw;
+    height: auto;
+    min-height: 20vw;
+    justify-self: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #DAA520;
+}
+
+#all_eois table  {
+    background-color: #1e1e1e;
+    color: #D3D3D3;
+    width: 108%;
+    height: auto;
+    padding: 25px;
+    border-radius: 20px;
+    justify-self: center;
+    position: relative;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+
+caption {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #1e1e1e;
+    padding-top: 1.5%;
+}
+
+th {
+    background-color: #050301;
+    color: #D3D3D3;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    overflow-wrap: break-word;
+    /* border: #D3D3D3 1px solid; */
+    font-size: medium;
+}
+
+td {
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    /* border: #D3D3D3 1px solid; */
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #323232;
+}
+
+#delete_by_job_ref, #change_status, #search_eois_by_job_ref, #search_eois_by_applicant {
+    background-color: #1e1e1e;
+    color: #D3D3D3;
+    width: 105%;
+    height: auto;
+    padding: 25px;
+    border-radius: 20px;
+    justify-self: center;
+    position: relative;
+    margin-top: 3%;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: center;
+    color: #DAA520;
+}
+
+#all_eois_by_position_table, #all_eois_by_applicant_table {
+    margin-top: 3%;
+}
+
+input, textarea, select {
+    border-radius: 5px;
+    background-color: lightgray;
+    resize: none;
+}   
+
+.submitBTN {
+    margin-top: 25px;
+    background-color: #DAA520;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center;
+    position: relative;
+}
+
+.submitBTN:hover {
+    margin-top: 25px;
+    background-color: hsl(43, 74%, 39%);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center;
+    position: relative;
+}
+
+
+
+

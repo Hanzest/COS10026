@@ -1,0 +1,154 @@
+/* Tổng thể trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Gradient từ đen sang vàng gold */
+    background: linear-gradient(to right, #000000, #b99a01ae);
+}
+
+/* Hiệu ứng nền blur */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Ô nhập liệu */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Ô nhập liệu */
+.form-group input {
+    width: 100%; /* Giữ nguyên 100% của container */
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box; /* Giữ kích thước cố định */
+}
+
+/* Placeholder màu trắng nhạt */
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+/* Khi nhập, placeholder mờ dần */
+.form-group input:focus::placeholder {
+    color: transparent;
+}
+
+
+/* Nút bấm */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+/* Remember me */
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    font-size: 14px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+/* Đường kẻ ngang */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 10px;
+}
+
+/* Guest Login */
+.btn-guest {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.btn-guest:hover {
+    background: linear-gradient(to right, #dd2476, #ff512f);
+}
+
+/* Link đăng ký */
+p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+p a {
+    color: #ff7eb3;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Hiển thị lỗi */
+.error {
+    background: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    color: #ff0000;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
